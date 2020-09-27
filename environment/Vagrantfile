@@ -20,6 +20,7 @@ HOSTS = {
   "rabbitmqserver"   => [NETWORK+"115", RAM, GUI, BOX, "rabbitmq.sh"],
   "consumer" => [NETWORK+"116", RAM, GUI, BOX, "node.sh"],
   "producer" => [NETWORK+"117", RAM, GUI, BOX, "node.sh"],
+  "consumer2" => [NETWORK+"119", RAM, GUI, BOX, "node.sh"],
   "mysql" => [NETWORK+"118", RAM, GUI, BOX, "mysql.sh"]
 }
 

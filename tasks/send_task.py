@@ -41,7 +41,7 @@ def send_task(task):
                                             credentials))
     channel = connection.channel()
 
-    channel.queue_declare(queue=database_configuration['queue'])
+    channel.queue_declare(queue=database_configuration['queue'], durable=True)
 
     channel.basic_publish(
         exchange='',
