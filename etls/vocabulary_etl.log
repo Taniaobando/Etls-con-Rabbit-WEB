@@ -1,0 +1,32 @@
+2020-09-26 16:41:47,559 - INFO - Connecting to database...
+2020-09-26 16:41:47,599 - INFO - The connection to the database was succesfull
+2020-09-26 16:41:47,599 - INFO - Getting all current vocabularies from database
+2020-09-26 16:41:47,601 - INFO - processing file ./received_files/vocabulary/vocabulary_1hAmILJWUsMULDDj2g65BbTMPL_IEUev6_20200926164146.csv
+2020-09-26 16:41:47,611 - INFO - Inserting vocabulary ref ABMS in database.
+2020-09-26 16:41:47,614 - INFO - Inserting vocabulary ref APC in database.
+2020-09-26 16:41:47,616 - INFO - Inserting vocabulary ref ATC in database.
+2020-09-26 16:41:47,619 - INFO - Inserting vocabulary ref CPT4 in database.
+2020-09-26 16:41:47,622 - INFO - Inserting vocabulary ref CVX in database.
+2020-09-26 16:41:47,625 - INFO - Inserting vocabulary ref MS-DRG in database.
+2020-09-26 16:41:47,629 - INFO - Inserting vocabulary ref HCPCS in database.
+2020-09-26 16:41:47,637 - INFO - Inserting vocabulary ref ICD10CM in database.
+2020-09-26 16:41:47,641 - INFO - Inserting vocabulary ref ICD10PCS in database.
+2020-09-26 16:41:47,644 - INFO - Inserting vocabulary ref ICD9CM in database.
+2020-09-26 16:41:47,653 - INFO - Inserting vocabulary ref ICD9Proc in database.
+2020-09-26 16:41:47,654 - INFO - Completed processing of file
+2020-09-26 17:41:10,871 - INFO - Connecting to database...
+2020-09-26 17:41:10,909 - INFO - The connection to the database was succesfull
+2020-09-26 17:41:10,909 - INFO - Getting all current vocabularies from database
+2020-09-26 17:41:10,913 - INFO - processing file ./received_files/vocabulary/vocabulary_1hAmILJWUsMULDDj2g65BbTMPL_IEUev6_20200926174109.csv
+2020-09-26 17:41:10,934 - INFO - Inserting vocabulary ref ABMS in database.
+2020-09-26 17:41:10,943 - INFO - Inserting vocabulary ref APC in database.
+2020-09-26 17:41:10,946 - INFO - Inserting vocabulary ref ATC in database.
+2020-09-26 17:41:10,949 - INFO - Inserting vocabulary ref CPT4 in database.
+2020-09-26 17:41:10,952 - INFO - Inserting vocabulary ref CVX in database.
+2020-09-26 17:41:10,956 - INFO - Inserting vocabulary ref MS-DRG in database.
+2020-09-26 17:41:10,959 - INFO - Inserting vocabulary ref HCPCS in database.
+2020-09-26 17:41:10,971 - INFO - Inserting vocabulary ref ICD10CM in database.
+2020-09-26 17:41:10,978 - INFO - Inserting vocabulary ref ICD10PCS in database.
+2020-09-26 17:41:10,981 - INFO - Inserting vocabulary ref ICD9CM in database.
+2020-09-26 17:41:10,985 - INFO - Inserting vocabulary ref ICD9Proc in database.
+2020-09-26 17:41:10,986 - INFO - Completed processing of file
