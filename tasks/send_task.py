@@ -23,10 +23,6 @@ def _get_logger():
 
 logger = _get_logger()
 
-def uuid_convert(o):
-    if isinstance(o, UUID):
-        return o.hex
-
 def send_task(task):
     config = configparser.ConfigParser()
     config.read('config.ini')
@@ -46,7 +42,7 @@ def send_task(task):
     channel.basic_publish(
         exchange='',
         routing_key=database_configuration['queue'],
-        body=json.dumps(task, indent=4, default=uuid_convert),
+        body=json.dumps(task, indent=4),
         properties=pika.BasicProperties(
             delivery_mode = 2, # make message persistent
         )
